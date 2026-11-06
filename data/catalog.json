@@ -1,0 +1,382 @@
+{
+  "threshold_bytes": 10000000,
+  "threshold_note": "MB = 1,000,000 bytes; MiB = 1,048,576 bytes.",
+  "inventory": [
+    {
+      "path": "constructed_frame.json",
+      "bytes": 11229,
+      "sha256": "a12ec3263579807d44d754ecefc6905d25b634d6f06b3d80f7f1cf54fbb81c6f",
+      "type": "dict",
+      "count": 6,
+      "keys": [
+        "Perception",
+        "Ego",
+        "Map",
+        "HistoricalTrajectory",
+        "Trajectory",
+        "Meta"
+      ],
+      "above_10MB": false,
+      "above_10MiB": false
+    },
+    {
+      "path": "constructed_from_image.json",
+      "bytes": 1300423,
+      "sha256": "f169795bbbcbb840e0cbbde3e8cd8a9ce44b9c41ee1dbdc7c3eadc25e403b0dc",
+      "type": "dict",
+      "count": 3,
+      "keys": [
+        "path1",
+        "path2",
+        "stats"
+      ],
+      "above_10MB": false,
+      "above_10MiB": false
+    },
+    {
+      "path": "constructed_test_trajectory2.json",
+      "bytes": 1335449,
+      "sha256": "f9ac60bff91420e9d621a2bfa8974498a6091d4e875c86aa422baa246af69300",
+      "type": "dict",
+      "count": 5,
+      "keys": [
+        "path1",
+        "path2",
+        "stats",
+        "raw_path1",
+        "raw_path2"
+      ],
+      "above_10MB": false,
+      "above_10MiB": false
+    },
+    {
+      "path": "constructed_test_trajectory3.json",
+      "bytes": 1334180,
+      "sha256": "0eea9d846c6f31b63c0b72d929465a886ea1fbb9899ed3df5e8182bc1d8bbcd5",
+      "type": "dict",
+      "count": 5,
+      "keys": [
+        "path1",
+        "path2",
+        "stats",
+        "raw_path1",
+        "raw_path2"
+      ],
+      "above_10MB": false,
+      "above_10MiB": false
+    },
+    {
+      "path": "LC-LLM_Peng_revised.json",
+      "bytes": 924948,
+      "sha256": "e452218a96d818828643a1d69f39f94ffff623ff85e5b089a51141fdf20ccf0e",
+      "type": "list",
+      "count": 7,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": false,
+      "above_10MiB": false
+    },
+    {
+      "path": "MiningCoT_Scenario2/MiningCoT_scenario2.json",
+      "bytes": 25367117,
+      "sha256": "d42e2a26a34a443ca5781f426ea30e17a25e4f68dceddb263043093cf5c5a7dc",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": true
+    },
+    {
+      "path": "MiningScenario1_load_unload_paths.json",
+      "bytes": 763153,
+      "sha256": "c25b7198b3e6f36489601d2df27a85308446883cb64f95cdae7807b8f8cd58e2",
+      "type": "dict",
+      "count": 4,
+      "keys": [
+        "source",
+        "loaded_path",
+        "unloaded_path",
+        "summary"
+      ],
+      "above_10MB": false,
+      "above_10MiB": false
+    },
+    {
+      "path": "MiningScenario_load_unload_paths_multi.json",
+      "bytes": 1215279,
+      "sha256": "ae2b79da115e643e248cd5616c9cb865ae24219ac162f93b948e054d08c3f53f",
+      "type": "dict",
+      "count": 1,
+      "keys": [
+        "scenarios"
+      ],
+      "above_10MB": false,
+      "above_10MiB": false
+    },
+    {
+      "path": "PengCoT/LC-LLM_Peng_revised.json",
+      "bytes": 81560607,
+      "sha256": "68d1d3277745a55d633e198e6ccc85d8a240885be05fc76deb26ae3ca501ea7c",
+      "type": "list",
+      "count": 40000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": true
+    },
+    {
+      "path": "PengCoT_Scenario2/txt_combined.json",
+      "bytes": 10147555,
+      "sha256": "bbaa5dfe9fb98e1d9ebad37100fb634e0ae2c5f7c74ac2051129827f7ce65fee",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": false
+    },
+    {
+      "path": "TestTrajectory3/MiningCoT_Scenario3/MiningCoT_scenario3.json",
+      "bytes": 25289266,
+      "sha256": "71f3462f9edb377f3b0599354eeb1913cc3de16184a14c09759670da5168f1b9",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": true
+    },
+    {
+      "path": "TestTrajectory3/PengCoT_Scenario3/LC-LLM_Peng_revised.json",
+      "bytes": 10167046,
+      "sha256": "d7c774750584f1efacd39602dfbacfa4ba34edfc9409496078760fc0fc9d28c8",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": false
+    },
+    {
+      "path": "TestTrajectory3/test_dataset_MiningCoT_scenario3.json",
+      "bytes": 25289266,
+      "sha256": "71f3462f9edb377f3b0599354eeb1913cc3de16184a14c09759670da5168f1b9",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": true,
+      "duplicate_of": "TestTrajectory3/MiningCoT_Scenario3/MiningCoT_scenario3.json"
+    },
+    {
+      "path": "TestTrajectory3/test_dataset_MiningCoT_scenario3_NoCoT.json",
+      "bytes": 19370074,
+      "sha256": "9bceaff876857a3f5e18559ed1f8e8ea08dafa9d038e332e34ff02219429e815",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": true
+    },
+    {
+      "path": "TestTrajectory3/test_dataset_PengCoT_scenario3.json",
+      "bytes": 10167046,
+      "sha256": "d7c774750584f1efacd39602dfbacfa4ba34edfc9409496078760fc0fc9d28c8",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": false,
+      "duplicate_of": "TestTrajectory3/PengCoT_Scenario3/LC-LLM_Peng_revised.json"
+    },
+    {
+      "path": "TestTrajectory3/test_dataset_PengCoT_scenario3_NoCoT.json",
+      "bytes": 7569107,
+      "sha256": "bfec58371976337bf52161f6d936a290742ec5227a296831c4b5f9a753b55932",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": false,
+      "above_10MiB": false
+    }
+  ],
+  "datasets": [
+    {
+      "path": "MiningCoT_Scenario2/MiningCoT_scenario2.json",
+      "bytes": 25367117,
+      "sha256": "d42e2a26a34a443ca5781f426ea30e17a25e4f68dceddb263043093cf5c5a7dc",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": true,
+      "id": "mining-s2",
+      "samples": "data/mining-s2.json",
+      "asset": "mining-s2.json",
+      "label": "MiningCoT / S2",
+      "scenario": "S2",
+      "variant": "CoT"
+    },
+    {
+      "path": "PengCoT/LC-LLM_Peng_revised.json",
+      "bytes": 81560607,
+      "sha256": "68d1d3277745a55d633e198e6ccc85d8a240885be05fc76deb26ae3ca501ea7c",
+      "type": "list",
+      "count": 40000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": true,
+      "id": "peng-s1",
+      "samples": "data/peng-s1.json",
+      "asset": "peng-s1.json",
+      "label": "PengCoT / S1",
+      "scenario": "S1",
+      "variant": "CoT"
+    },
+    {
+      "path": "PengCoT_Scenario2/txt_combined.json",
+      "bytes": 10147555,
+      "sha256": "bbaa5dfe9fb98e1d9ebad37100fb634e0ae2c5f7c74ac2051129827f7ce65fee",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": false,
+      "id": "peng-s2",
+      "samples": "data/peng-s2.json",
+      "asset": "peng-s2.json",
+      "label": "PengCoT / S2",
+      "scenario": "S2",
+      "variant": "CoT"
+    },
+    {
+      "path": "TestTrajectory3/MiningCoT_Scenario3/MiningCoT_scenario3.json",
+      "bytes": 25289266,
+      "sha256": "71f3462f9edb377f3b0599354eeb1913cc3de16184a14c09759670da5168f1b9",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": true,
+      "id": "mining-s3",
+      "samples": "data/mining-s3.json",
+      "asset": "mining-s3.json",
+      "label": "MiningCoT / S3",
+      "scenario": "S3",
+      "variant": "CoT"
+    },
+    {
+      "path": "TestTrajectory3/PengCoT_Scenario3/LC-LLM_Peng_revised.json",
+      "bytes": 10167046,
+      "sha256": "d7c774750584f1efacd39602dfbacfa4ba34edfc9409496078760fc0fc9d28c8",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": false,
+      "id": "peng-s3",
+      "samples": "data/peng-s3.json",
+      "asset": "peng-s3.json",
+      "label": "PengCoT / S3",
+      "scenario": "S3",
+      "variant": "CoT"
+    },
+    {
+      "path": "TestTrajectory3/test_dataset_MiningCoT_scenario3_NoCoT.json",
+      "bytes": 19370074,
+      "sha256": "9bceaff876857a3f5e18559ed1f8e8ea08dafa9d038e332e34ff02219429e815",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": true,
+      "above_10MiB": true,
+      "id": "mining-s3-nocot",
+      "samples": "data/mining-s3-nocot.json",
+      "asset": "mining-s3-nocot.json",
+      "label": "MiningCoT / S3 / NoCoT",
+      "scenario": "S3",
+      "variant": "NoCoT"
+    },
+    {
+      "path": "TestTrajectory3/test_dataset_PengCoT_scenario3_NoCoT.json",
+      "bytes": 7569107,
+      "sha256": "bfec58371976337bf52161f6d936a290742ec5227a296831c4b5f9a753b55932",
+      "type": "list",
+      "count": 5000,
+      "keys": [
+        "input",
+        "instruction",
+        "output"
+      ],
+      "above_10MB": false,
+      "above_10MiB": false,
+      "id": "peng-s3-nocot",
+      "samples": "data/peng-s3-nocot.json",
+      "asset": "peng-s3-nocot.json",
+      "label": "PengCoT / S3 / NoCoT",
+      "scenario": "S3",
+      "variant": "NoCoT"
+    }
+  ],
+  "records_across_variants": 70000,
+  "provenance": "Workspace supplementary trajectory instruction data. Not identified as the original 15-hour MiningNav sensor dataset. Counts across variants are not counts of distinct driving scenes."
+}
